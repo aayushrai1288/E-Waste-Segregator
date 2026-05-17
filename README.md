@@ -16,10 +16,11 @@ The E-Waste Segregator is a deep learning-based project designed to classify and
 1. **ResNet-50**: Achieved high accuracy (~98%) for classification across 10 classes.
 2. **VGG16**: Used for comparative analysis in classification tasks.
 3. **YOLOv9**: Employed for real-time object detection and localization of e-waste items.
+4. **Custom YOLO Classification**: A specialized YOLO-based classification pipeline for 10 classes (Battery, Keyboard, Mobile, etc.).
 
 ## Dataset
-The dataset consists of approximately 2400 training images and 300-400 testing/validation images, covering 10 classes of electronic waste (e.g., Mouse, Keyboard, Laptop, etc.).
-Dataset is hosted on Roboflow: [E-waste Segregator](https://universe.roboflow.com/rajarshi/ds1-znqts).
+- **Standard Dataset**: Approximately 2400 training images and 300-400 testing/validation images covering 24 classes. Hosted on Roboflow.
+- **YOLO Classification Dataset**: Located in `data/raw/e-waste-yolo-classification`, covering 10 specific e-waste classes.
 
 ## Setup and Installation
 1. Clone the repository.
