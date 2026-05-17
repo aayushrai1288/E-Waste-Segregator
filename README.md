@@ -50,4 +50,3 @@ bash scripts/train_yolo.sh
 - Rita Shukla
 - Kanishka Goyal
 - Aayush Rai
-"# E-Waste-Segregator" 
