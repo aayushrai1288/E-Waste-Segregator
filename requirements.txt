@@ -1,0 +1,13 @@
+torch
+torchvision
+torchaudio
+matplotlib
+numpy
+pandas
+opencv-python
+roboflow
+pillow
+tqdm
+pyyaml
+scikit-learn
+ipykernel
